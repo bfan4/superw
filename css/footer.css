@@ -1,0 +1,37 @@
+footer {
+    background-color: black;
+}
+
+footer .container {
+    margin: 56px 0;
+}
+
+.footer-links {
+    color: white;
+    font-family:sans-serif;
+}
+
+footer .fab {
+    color: white;
+    background-color: dimgray;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 32px;
+}
+
+footer .container ._center {
+    text-align: center;
+}
+
+@media(max-width: 767px) {
+    footer .container {
+        margin: 64px;
+    }
+
+    footer .fab {
+        margin-top: 0px;
+    }
+}
